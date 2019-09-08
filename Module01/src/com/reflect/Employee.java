@@ -9,7 +9,9 @@ public class Employee {
         private String name;
 
         //Constructor
-        public Employee(){}
+        public Employee(){
+                System.out.println("无参构造方法执行！");
+        }
 
         public Employee(String name)
         {

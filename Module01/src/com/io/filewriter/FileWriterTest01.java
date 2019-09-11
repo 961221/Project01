@@ -15,7 +15,7 @@ public class FileWriterTest01 {
         //开始写
         fw.write("林俊杰");
 
-        char[] chars = {'小','酒','窝','长','捷','毛'};
+        char[] chars = {'f','f','t','g','p','y'};
         //将char数组的一部分写入
         fw.write(chars,0,3);
         //刷新

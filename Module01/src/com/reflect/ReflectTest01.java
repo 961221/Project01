@@ -12,11 +12,6 @@ import java.util.Date;
     获取Class类型对象的三种方式（Class就是类型）
  */
 public class ReflectTest01 {
-<<<<<<< HEAD
-    public static void main(String[] args) {
-        System.out.println();
-		
-=======
     public static void main(String[] args) throws Exception{
         //第一种方式、
         //c1引用保存的内存地址指向堆中的对象，该对象代表的是Employee整个类。
@@ -51,6 +46,5 @@ public class ReflectTest01 {
         //c7就代表int类型
         Class c7 = int.class;
 
->>>>>>> 066d1c1548d2be9660b4c78c442428ce85c508f3
     }
 }
